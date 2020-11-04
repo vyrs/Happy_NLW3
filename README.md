@@ -14,11 +14,11 @@
 
 <br>
 
-<h2 align="center">Happy Web</h2>
+<h2 align="center">Happy Mobile</h2>
 
 <p align="center">
-  <img alt="Happy Mapa" src=".github/HomeMobile.png" width="100%">
-  <img alt="Happy Mapa" src=".github/MapaMobile.png" width="100%">
+  <img alt="Happy Mapa" src=".github/HomeMobile.png" width="50%">
+  <img alt="Happy Mapa" src=".github/MapaMobile.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
