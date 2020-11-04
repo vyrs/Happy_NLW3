@@ -26,7 +26,7 @@ export default function Header({ title, showCancel= true }: HeaderProps) {
                 <BorderlessButton onPress={handleGoBackToAppHomepage} >
                 <Feather name="x" size={24} color='#ff669d' />
             </BorderlessButton>
-           ):( // se não mostrar o botão x, a view abaixo vai ocupar o lugar, só para não estragar o layout do header
+           ):(
                <View></View>
            )}
         </View>

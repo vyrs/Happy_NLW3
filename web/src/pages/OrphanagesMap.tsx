@@ -17,7 +17,7 @@ interface Orphanage {
 }
 
 function OrphanagesMap() {
-  const [orphanages, setOrphanages] = useState<Orphanage[]>([]); // isso é para indicar que é um array de tipo Orphanage
+  const [orphanages, setOrphanages] = useState<Orphanage[]>([]);
 
   useEffect(() => {
     api.get('orphanages').then(response => {

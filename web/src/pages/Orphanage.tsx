@@ -25,12 +25,12 @@ interface Orphanage {
 }
 
 interface OrphanageParams {
-  id: string; // é string pq está pegando da url
+  id: string;
 }
 
 export default function Orphanage() {
   const params = useParams<OrphanageParams>();
-  const [orphanage, setOrphanage] = useState<Orphanage>(); // isso é para indicar que é do tipo(implementa) interface Orphanage
+  const [orphanage, setOrphanage] = useState<Orphanage>();
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   useEffect(() => {

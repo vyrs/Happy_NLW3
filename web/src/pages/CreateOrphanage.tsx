@@ -58,10 +58,10 @@ export default function CreateOrphanage() {
 
     const data = new FormData();
 
-    // por causa das imagens não pode passar como json precisa passar como formData 
+
     data.append('name', name);
     data.append('about', about);
-    data.append('latitude', String(latitude)); // numeros precisa ser passados com string tbm
+    data.append('latitude', String(latitude)); 
     data.append('longitude', String(longitude));
     data.append('instructions', instructions);
     data.append('opening_hours', opening_hours);
@@ -137,7 +137,7 @@ export default function CreateOrphanage() {
                   )
                 })}
 
-                {/* type button para ele não fazer submit sozinho ao clicar */}
+            
                 <label htmlFor="image[]" className="new-image">
                   <FiPlus size={24} color="#15b6d6" />
                 </label>
@@ -199,5 +199,3 @@ export default function CreateOrphanage() {
     </div>
   );
 }
-
-// return `https://a.tile.openstreetmap.org/${z}/${x}/${y}.png`;

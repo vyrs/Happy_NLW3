@@ -9,7 +9,7 @@ const errorHandler: ErrorRequestHandler = (error, request, response, next) => {
   if (error instanceof ValidationError) {
     let errors: ValidationErrors = {};
 
-    // exibir no console o error.inner para ver essas propriedades como .path que é o nome
+  
     error.inner.forEach(err => {
       errors[err.path] = err.errors;
     });
